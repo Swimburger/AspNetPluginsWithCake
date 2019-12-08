@@ -15,6 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetPluginsWithCake.Plugi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D373AD6D-D78D-43C5-8C06-25D977F90213}"
 	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
 		build.cake = build.cake
 	EndProjectSection
 EndProject
