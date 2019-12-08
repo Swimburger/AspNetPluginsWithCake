@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>AspNetPluginsWithCake.Plugins.AddSearchEngines</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AspNetPluginsWithCake.Plugins\AspNetPluginsWithCake.Plugins.csproj" />
+  </ItemGroup>
+
+</Project>

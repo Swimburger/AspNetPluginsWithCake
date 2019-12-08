@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetPluginsWithCake", "AspNetPluginsWithCake\AspNetPluginsWithCake.csproj", "{C2ED00EE-2D28-4022-8A26-2611E96880E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetPluginsWithCake.Plugins", "AspNetPluginsWithCake.Plugins\AspNetPluginsWithCake.Plugins.csproj", "{088260F8-4197-4556-A564-082B23DC7AC6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetPluginsWithCake.Plugins.AddRickRoll", "AspNetPluginsWithCake.Plugins.AddRickRoll\AspNetPluginsWithCake.Plugins.AddRickRoll.csproj", "{F353D1FF-3E89-405C-A0CF-4B366A547BFA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetPluginsWithCake.Plugins.AddSearchEngines", "AspNetPluginsWithCake.Plugins.AddSearchEngines\AspNetPluginsWithCake.Plugins.AddSearchEngines.csproj", "{DE340478-D15C-4C4A-A1F1-DE9C048C847C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetPluginsWithCake.Plugins.AddSwimburger", "AspNetPluginsWithCake.Plugins.AddSwimburger\AspNetPluginsWithCake.Plugins.AddSwimburger.csproj", "{243A9894-037C-422C-9789-E335D50F89E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D373AD6D-D78D-43C5-8C06-25D977F90213}"
+	ProjectSection(SolutionItems) = preProject
+		build.cake = build.cake
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2ED00EE-2D28-4022-8A26-2611E96880E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2ED00EE-2D28-4022-8A26-2611E96880E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2ED00EE-2D28-4022-8A26-2611E96880E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2ED00EE-2D28-4022-8A26-2611E96880E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{088260F8-4197-4556-A564-082B23DC7AC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{088260F8-4197-4556-A564-082B23DC7AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{088260F8-4197-4556-A564-082B23DC7AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{088260F8-4197-4556-A564-082B23DC7AC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F353D1FF-3E89-405C-A0CF-4B366A547BFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F353D1FF-3E89-405C-A0CF-4B366A547BFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F353D1FF-3E89-405C-A0CF-4B366A547BFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F353D1FF-3E89-405C-A0CF-4B366A547BFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE340478-D15C-4C4A-A1F1-DE9C048C847C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE340478-D15C-4C4A-A1F1-DE9C048C847C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE340478-D15C-4C4A-A1F1-DE9C048C847C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE340478-D15C-4C4A-A1F1-DE9C048C847C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{243A9894-037C-422C-9789-E335D50F89E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{243A9894-037C-422C-9789-E335D50F89E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{243A9894-037C-422C-9789-E335D50F89E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{243A9894-037C-422C-9789-E335D50F89E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C453BB5-D7FA-492B-839E-B2231E679FC3}
+	EndGlobalSection
+EndGlobal
