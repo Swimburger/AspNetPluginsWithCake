@@ -343,3 +343,4 @@ healthchecksdb
 # Build related
 tools/**
 !tools/packages.config
+/AspNetPluginsWithCake/Plugins

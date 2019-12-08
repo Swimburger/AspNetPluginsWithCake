@@ -58,7 +58,7 @@ namespace AspNetPluginsWithCake.Services
             {
                 var pluginAssembly = assemblyLoadContext.LoadFromAssemblyPath(dllFile);
                 var navigationItemTypes = pluginAssembly.GetTypes()
-                    .Where(t => navigationInterfaceType.IsAssignableFrom(t))
+                    .Where(t => t != navigationInterfaceType && navigationInterfaceType.IsAssignableFrom(t))
                     .ToList();
 
                 foreach (var navigationItemType in navigationItemTypes)
